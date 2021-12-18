@@ -1,0 +1,106 @@
+body {
+    background: url('./cover.jpg') fixed no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff
+}
+
+a {text-decoration: none}
+
+.alert {color: white}
+
+.alert.alert-danger {background-color: #f44336}
+
+.alert.alert-success {background-color: #4CAF50}
+
+.alert.alert-info {background-color: #2196F3}
+
+.alert.alert-warning {background-color: #ff9800}
+
+.url-shortener {
+    max-width: 1000px;
+    margin: 10em auto;
+    text-align: center;
+    color: #fff
+}
+
+.url-shortener .deskripsi {
+    font-size: 18px;
+    margin: 10px
+}
+
+.url-shortener .form {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px #555;
+    margin: 3em 10px;
+    color: #555;
+    text-align: left;
+}
+
+.url-shortener .form hr {
+    margin-top: 1.2em;
+    border: 0;
+    border-top: 1px solid #aaa;
+}
+
+.url-shortener .form .input-group-text {
+    background: #fff!important;
+    border: none!important;
+}
+
+.url-shortener .form .input-group .form-control {
+    border: none;
+    margin-right: 10px;
+}
+
+.url-shortener .form .input-group .form-control:hover, 
+.url-shortener .form .input-group .form-control:focus {
+    box-shadow: none;
+}
+
+.url-shortener .form .input-group .btn {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 50%!important;
+    box-shadow: 0 0 10px #1e78fd;
+}
+
+.url-shortener .form .input-group .btn:hover {
+    box-shadow: 0 0 10px #1e78fd;
+}
+
+.url-shortener .form .input-group-text .icons {
+    font-size: 30px
+}
+
+@media (max-width: 560px) {
+    .url-shortener .form .input-group .btn {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        position: relative;
+    }
+    
+    .url-shortener .form .input-group .btn i {
+        position: absolute;
+        left: 11px;
+        top: 6.5px
+    }
+
+    .url-shortener .form .input-group-text .icons {
+        font-size: 25px
+    }
+}
+
+.url-shortener .output {
+    margin: 1.5em 0;
+    word-break: break-all;
+}
+
+.url-shortener .output .pd {
+    padding-bottom: 0.5rem
+}

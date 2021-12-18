@@ -1,6 +1,6 @@
 <?php
 
-$connect = mysqli_connect('localhost', 'root', '', 'url_shortener');
+$connect = mysqli_connect('localhost', 'root', '', 'dailyblogid_db');
 $url_ori = 'http://localhost/';
 
 if (mysqli_connect_errno())
